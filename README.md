@@ -1,6 +1,8 @@
 # Santander Dev Week 2023
 Projeto replicado do Santander Dev Week 2023 ministrado pelo professor Venilton Falvo Jr. da DIO.
 
+##Diagrama de Classes
+```mermaid
 classDiagram
   class User {
     -String name
@@ -36,4 +38,5 @@ classDiagram
   User "1" *-- "N" Feature
   User "1" *-- "1" Card
   User "1" *-- "N" News
+```
 
