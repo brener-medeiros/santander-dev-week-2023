@@ -2,9 +2,8 @@ package dio.service;
 
 import dio.domain.model.User;
 
-public interface UserService {
+import java.util.List;
 
-    User findById(Long id);
+public interface UserService extends CrudService<Long, User> {
 
-    User create(User userToCreate);
 }
